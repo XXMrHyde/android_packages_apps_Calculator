@@ -190,7 +190,7 @@ public class Calculator extends Activity
                 mResultEditText.setTextColor(
                         getResources().getColor(R.color.display_result_text_color));
                 getWindow().setStatusBarColor(
-                        getResources().getColor(R.color.calculator_primary_color));
+                        getResources().getColor(R.color.calculator_primary_dark_color));
             }
         }
     }
@@ -371,7 +371,7 @@ public class Calculator extends Activity
 
         final View sourceView = mClearButton.getVisibility() == View.VISIBLE
                 ? mClearButton : mDeleteButton;
-        reveal(sourceView, R.color.calculator_accent_color, new AnimatorListenerAdapter() {
+        reveal(sourceView, R.color.calculator_primary_dark_color, new AnimatorListenerAdapter() {
             @Override
             public void onAnimationStart(Animator animation) {
                 mFormulaEditText.getEditableText().clear();
