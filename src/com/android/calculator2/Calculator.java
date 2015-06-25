@@ -190,7 +190,7 @@ public class Calculator extends Activity
                 mResultEditText.setTextColor(
                         getResources().getColor(R.color.display_result_text_color));
                 getWindow().setStatusBarColor(
-                        getResources().getColor(R.color.calculator_accent_color));
+                        getResources().getColor(R.color.calculator_primary_color));
             }
         }
     }
